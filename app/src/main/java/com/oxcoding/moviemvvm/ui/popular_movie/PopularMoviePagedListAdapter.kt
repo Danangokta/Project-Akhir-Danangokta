@@ -28,7 +28,7 @@ class PopularMoviePagedListAdapter(public val context: Context) : PagedListAdapt
 
     private var networkState: NetworkState? = null
 
-
+   //view yang digunakan untuk menampilkan data pada tampilan
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecyclerView.ViewHolder {
         //membuat tampilan baru
         val layoutInflater = LayoutInflater.from(parent.context)
